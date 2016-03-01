@@ -49,7 +49,18 @@ makeV(13); // test your code by running it in the console
 
 */
 
-function longest (s1,s2) {
+function longest (s1,s2) {// 
+var s1 = "hello";
+var s2 = "hi";
+function longest (s1, s2) {
+  if (s1.length > s2.length) { 
+    return (s1)
+  } else (s2.length > s1.length) 
+  { 
+return (s2)
+};
+}
+console.log (longest ("hello", "hi"));
     // do stuff here
     return something;
 }
